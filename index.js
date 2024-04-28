@@ -9,11 +9,6 @@ let getJoke = async() =>{
     let data = await response.json();
     jokeConatiner.innerHTML = `${data.joke}`
     jokeConatiner.classList.add('fade')
-
-    // .then(data => data.json())
-    // .then(data => {
-    //     
-    // });
 }
 
 
